@@ -1,0 +1,106 @@
+---
+title: morphtools
+---
+graph TD
+    X_Array[X_Array::VariableDeclaration]
+    X_Both[X_Both::VariableDeclaration]
+    X_Error[X_Error::VariableDeclaration]
+    X_Set[X_Set::VariableDeclaration]
+    X_baseClassBoth[X_baseClassBoth::VariableDeclaration]
+    X_baseClassName[X_baseClassName::VariableDeclaration]
+    X_baseClass[X_baseClass::VariableDeclaration]
+    X_classBoth[X_classBoth::VariableDeclaration]
+    X_className[X_className::VariableDeclaration]
+    X_cls[X_cls::VariableDeclaration]
+    X_console[X_console::VariableDeclaration]
+    X_decl[X_decl::VariableDeclaration]
+    X_decls[X_decls::VariableDeclaration]
+    X_edge[X_edge::VariableDeclaration]
+    X_edges[X_edges::VariableDeclaration]
+    X_existsSync[X_existsSync::FunctionDeclaration]
+    X_funcBoth[X_funcBoth::VariableDeclaration]
+    X_funcName[X_funcName::VariableDeclaration]
+    X_func[X_func::VariableDeclaration]
+    X_generateMermaidDiagram(X_generateMermaidDiagram::function)
+    X_getNodeId(X_getNodeId::function)
+    X_getNodeId[X_getNodeId::FunctionDeclaration]
+    X_identifier[X_identifier::VariableDeclaration]
+    X_imp[X_imp::VariableDeclaration]
+    X_importName[X_importName::VariableDeclaration]
+    X_kind[X_kind::VariableDeclaration]
+    X_mermaidClasses(X_mermaidClasses::function)
+    X_mermaidConsvars(X_mermaidConsvars::function)
+    X_mermaidFunctions(X_mermaidFunctions::function)
+    X_mermaidImports(X_mermaidImports::function)
+    X_mermaid[X_mermaid::VariableDeclaration]
+    X_moduleSpecifier[X_moduleSpecifier::VariableDeclaration]
+    X_name[X_name::VariableDeclaration]
+    X_namedImport[X_namedImport::VariableDeclaration]
+    X_node[X_node::VariableDeclaration]
+    X_nodes[X_nodes::VariableDeclaration]
+    X_output[X_output::VariableDeclaration]
+    X_parent[X_parent::VariableDeclaration]
+    X_project[X_project::VariableDeclaration]
+    X_refIdBoth[X_refIdBoth::VariableDeclaration]
+    X_refId[X_refId::VariableDeclaration]
+    X_refSymbol[X_refSymbol::VariableDeclaration]
+    X_sourceFile[X_sourceFile::VariableDeclaration]
+    X_sourceFiles[X_sourceFiles::VariableDeclaration]
+    X_tsConfigPath[X_tsConfigPath::VariableDeclaration]
+    X_uniqueIdCounter[X_uniqueIdCounter::VariableDeclaration]
+    X_varDecl[X_varDecl::VariableDeclaration]
+    X_writeFileSync[X_writeFileSync::FunctionDeclaration]
+    X_generateMermaidDiagram -->|uses| X_Array
+    X_generateMermaidDiagram -->|uses| X_Error
+    X_generateMermaidDiagram -->|uses| X_Set
+    X_generateMermaidDiagram -->|uses| X_console
+    X_generateMermaidDiagram -->|uses| X_edge
+    X_generateMermaidDiagram -->|uses| X_edges
+    X_generateMermaidDiagram -->|uses| X_existsSync
+    X_generateMermaidDiagram -->|uses| X_mermaid
+    X_generateMermaidDiagram -->|uses| X_node
+    X_generateMermaidDiagram -->|uses| X_nodes
+    X_generateMermaidDiagram -->|uses| X_project
+    X_generateMermaidDiagram -->|uses| X_sourceFile
+    X_generateMermaidDiagram -->|uses| X_sourceFiles
+    X_generateMermaidDiagram -->|uses| X_tsConfigPath
+    X_generateMermaidDiagram -->|uses| X_uniqueIdCounter
+    X_generateMermaidDiagram -->|uses| X_writeFileSync
+    X_getNodeId -->|uses| X_output
+    X_mermaidClasses -->|uses| X_Set
+    X_mermaidClasses -->|uses| X_baseClass
+    X_mermaidClasses -->|uses| X_baseClassBoth
+    X_mermaidClasses -->|uses| X_baseClassName
+    X_mermaidClasses -->|uses| X_classBoth
+    X_mermaidClasses -->|uses| X_className
+    X_mermaidClasses -->|uses| X_cls
+    X_mermaidClasses -->|uses| X_getNodeId
+    X_mermaidConsvars -->|uses| X_Both
+    X_mermaidConsvars -->|uses| X_Set
+    X_mermaidConsvars -->|uses| X_decl
+    X_mermaidConsvars -->|uses| X_decls
+    X_mermaidConsvars -->|uses| X_getNodeId
+    X_mermaidConsvars -->|uses| X_identifier
+    X_mermaidConsvars -->|uses| X_kind
+    X_mermaidConsvars -->|uses| X_name
+    X_mermaidConsvars -->|uses| X_parent
+    X_mermaidConsvars -->|uses| X_refId
+    X_mermaidConsvars -->|uses| X_refIdBoth
+    X_mermaidConsvars -->|uses| X_refSymbol
+    X_mermaidConsvars -->|uses| X_varDecl
+    X_mermaidFunctions -->|uses| X_Set
+    X_mermaidFunctions -->|uses| X_decl
+    X_mermaidFunctions -->|uses| X_decls
+    X_mermaidFunctions -->|uses| X_func
+    X_mermaidFunctions -->|uses| X_funcBoth
+    X_mermaidFunctions -->|uses| X_funcName
+    X_mermaidFunctions -->|uses| X_getNodeId
+    X_mermaidFunctions -->|uses| X_identifier
+    X_mermaidFunctions -->|uses| X_refId
+    X_mermaidFunctions -->|uses| X_refIdBoth
+    X_mermaidFunctions -->|uses| X_refSymbol
+    X_mermaidImports -->|uses| X_Set
+    X_mermaidImports -->|uses| X_imp
+    X_mermaidImports -->|uses| X_importName
+    X_mermaidImports -->|uses| X_moduleSpecifier
+    X_mermaidImports -->|uses| X_namedImport
